@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { HiOutlineBars3 } from "react-icons/hi2"
 import { Box, Drawer, ListItem, ListItemButton, ListItemText, List } from "@mui/material"
 import { Link } from 'react-scroll'
-import './Styles/Nav.css'
+//import './Styles/Nav.css'
 
 function Nav() {
 

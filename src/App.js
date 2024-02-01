@@ -1,4 +1,4 @@
-import './App.css';
+//import './App.css';
 import About from './Components/About';
 import Nav from './Components/Nav';
 import Profile from './Components/Profile'
@@ -9,12 +9,12 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Nav />{/*
       <Profile />
       <About />
       <Projects />
       <Contact />
-      <Footer />
+      <Footer />*/}
     </div>
   );
 }
