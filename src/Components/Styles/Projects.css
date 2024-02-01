@@ -1,0 +1,207 @@
+/* PROJECTS SECTION */
+.projects-section {
+  position: relative;
+  height: 80vh;
+  min-height: 400px;
+  margin: 0 30px;
+  margin-top: 150px;
+}
+
+.arrow-up {
+  position: relative;
+  left: 100%;
+  top: 3rem;
+}
+
+.project-text-p1 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.project-up-title {
+  font-size: 2.9rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.experience-details-container-project {
+  margin: auto;
+  align-items: center;
+}
+
+.project-containers {
+  margin-top: 2%;
+}
+
+
+.slick-slide {
+  padding-left: 15px;
+}
+
+.slick-slide img {
+  min-height: 300px;
+  display: inline !important;
+}
+
+.details-container-project {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+  min-height: 450px;
+  padding: 0rem;
+  padding-top: 0.5rem;
+  min-width: 340px;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.article-container {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-img {
+  border-radius: 2rem;
+  height: 100%;
+  width: 85%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.experience-sub-title {
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0.5rem;
+  color: black;
+}
+
+.article-container {
+  padding: -1rem;
+  gap: 1rem;
+}
+
+.arrow {
+  position: relative;
+  left: 100%;
+  bottom: 7rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.project-btn {
+  margin: 0px;
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1330px) {
+
+  .projects-section {
+    margin-top: 300px;
+  }
+
+  .arrow-up {
+    position: relative;
+    left: 100%;
+    top: 3rem;
+  }
+
+  .project-text-p1 {
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .project-up-title {
+    font-size: 2.9rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .slick-slide {
+    max-width: 900px;
+  }
+
+  .details-container-project {
+    min-width: 50px;
+    min-height: 450px;
+  }
+
+  .project-btn {
+    font-size: 1rem;
+    margin: 0px;
+  }
+
+}
+
+@media (max-width: 1130px) {
+
+  .experience-sub-title {
+    font-size: 1.2rem;
+  }
+
+  .projects-section {
+    margin-top: 300px;
+  }
+
+  .details-container-project {
+    min-width: 50px;
+    min-height: 450px;
+  }
+
+  .project-btn {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  .projects-section {
+    margin-top: 500px;
+  }
+}
+
+
+
+@media (max-width: 800px) {
+  .projects-section {
+    min-height: 400px;
+    margin-top: 500px;
+  }
+
+  .project-btn {
+    font-size: 0.8rem;
+    margin: -1px;
+  }
+  .project-btn {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-section {
+    margin-top: 500px;
+  }
+
+  .project-btn {
+    margin-bottom: 15px;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+}
