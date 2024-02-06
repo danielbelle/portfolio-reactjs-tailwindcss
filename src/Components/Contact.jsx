@@ -30,10 +30,10 @@ function Contact() {
 
   }
   return (
-    <div id="contact" className='flex relative justify-center flex-col h-[80hv] max-w-[1160px] h-min-[500px] m-auto box-border pt-[5rem]'>
+    <div id="contact" className='flex justify-center flex-col h-[80hv] max-w-[1160px] h-min-[500px] m-auto box-border pt-[5rem]'>
       <p className="flex justify-center font-[600] text-gray-600">Me Encaminhe Seu</p>
       <h1 className="flex justify-center text-[3rem] font-[600] mb-10">E-mail</h1>
-      <div className="flex justify-center rounded-[32px] border-solid border-[0.1rem] border-gray-500 mx-[23rem] my-auto p-[-.5rem] bg-[#fafafa] ">
+      <div className="flex justify-center rounded-[32px] border-solid border-[0.1rem] border-gray-500 m-auto p-[-.5rem] bg-[#fafafa] sm:min-w-[450px]">
         <div className="flex items-center justify-center gap-[1rem] m-[1rem]">
           <img src={Email} alt="Ícone E-mail" className="cursor-default h-[2rem] ml-[0.5rem]" />
           <form ref={form} onSubmit={sendEmail}>
