@@ -4,12 +4,11 @@ import Education from '../Assets/education.png'
 import Arrow from '../Assets/arrow.png'
 import ArrowUp from '../Assets/arrow-up.png'
 import { Link } from 'react-scroll'
-import './Styles/About.css'
 
 function About() {
 
   return (
-    <div id="about" className='justify-between items-center max-w-[1160px] mx-auto my-auto relative min-h-[400px] h-[80vh] pt-[50px]pb-[50px]'>
+    <div id="about" className='justify-between items-center max-w-[1160px] mx-auto my-auto relative min-h-[650px] h-[80vh] pt-[30px] pb-[50px]'>
       <div>{/*
         <Link to='nav' spy={true} smooth={true} offset={0} duration={300}>
           <img src={ArrowUp} alt="Ícone seta" className="icon arrow-up" />
