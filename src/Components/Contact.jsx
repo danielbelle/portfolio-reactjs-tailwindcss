@@ -30,15 +30,15 @@ function Contact() {
 
   }
   return (
-    <div id="contact" className='flex justify-center flex-col h-[80hv] max-w-[1160px] h-min-[500px] m-auto box-border pt-[5rem]'>
+    <div id="contact" className='flex justify-center flex-col h-[80hv] max-w-[1160px] m-auto relative h-min-[500px] box-border sm:pt-[15rem] md:pt-[7rem] lg:pt-[5rem] pt-[8rem]'>
       <p className="flex justify-center font-[600] text-gray-600">Me Encaminhe Seu</p>
       <h1 className="flex justify-center text-[3rem] font-[600] mb-10">E-mail</h1>
-      <div className="flex justify-center rounded-[32px] border-solid border-[0.1rem] border-gray-500 m-auto p-[-.5rem] bg-[#fafafa] sm:min-w-[450px]">
+      <div className="flex justify-center rounded-[32px] border-solid border-[0.1rem] border-gray-500 m-auto bg-transparent sm:min-w-[450px]">
         <div className="flex items-center justify-center gap-[1rem] m-[1rem]">
           <img src={Email} alt="Ícone E-mail" className="cursor-default h-[2rem] ml-[0.5rem]" />
           <form ref={form} onSubmit={sendEmail}>
             <div className='bg-white max-w-[700px] w-[100%] items-center rounded-[5rem]'>
-              <input type='email' name='user_email' value={input} onChange={(e) => setInput(e.target.value)} placeholder='seu-email@gmail.com' className='flex-1 h-[100%] border-none outline-none font-[1.3rem] px-[1rem] py-[1rem] placeholder:text-[1.1rem]'></input>
+              <input type='email' name='user_email' value={input} onChange={(e) => setInput(e.target.value)} placeholder='seu-email@gmail.com' className='flex-1 h-[100%] border-none outline-none font-[1.3rem] px-[1rem] py-[1rem] placeholder:text-[1.1rem] placeholder:text-gray-500'></input>
               <input className='bg-white rounded-[5rem] text-[1.2rem] cursor-pointer font-[600] text-black transition duration-200 items-center justify-center ml-[1rem]' type='submit' value={'Enviar'} />
             </div>
           </form>
