@@ -15,7 +15,7 @@ function Profile() {
       <div className="flex justify-between flex-col flex-1 content-center self-center mx-0 my-auto">
         <p className="font-bold text-center text-gray-600">Oii, Aqui é o</p>
         <h1 className="font-bold text-5xl py-4 text-center">Daniel H. Bellé</h1>
-        <p className="text-2xl font-bold text-center text-gray-600 py-3">Dev Full Stack JavaScript</p>
+        <p className="text-2xl font-bold text-center text-gray-600 py-3">Dev Full Stack PHP | JS</p>
         <div className="flex justify-center gap-[1rem]">
           <a href={Resume} target="_blank" rel="noopener noreferrer">
             <button className="font-[600] text-[0.8rem] ease-in duration-300 p-[0.8rem] w-[8rem] rounded-[32px] border-solid border-[0.1rem] border-[#353535] hover:cursor-pointer hover:bg-[#353535] hover:text-white bg-[#FFF]" >

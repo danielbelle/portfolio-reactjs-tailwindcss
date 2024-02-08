@@ -30,7 +30,7 @@ function Contact() {
 
   }
   return (
-    <div id="contact" className='flex justify-center flex-col h-[80hv] max-w-[1160px] m-auto relative h-min-[500px] box-border sm:pt-[15rem] md:pt-[7rem] lg:pt-[5rem] pt-[8rem]'>
+    <div id="contact" className='flex justify-center flex-col h-[80hv] max-w-[1160px] m-auto relative h-min-[500px] box-border sm:mt-[15rem] md:mt-[7rem] lg:mt-[5rem] pt-[8rem]'>
       <p className="flex justify-center font-[600] text-gray-600">Me Encaminhe Seu</p>
       <h1 className="flex justify-center text-[3rem] font-[600] mb-10">E-mail</h1>
       <div className="flex justify-center rounded-[32px] border-solid border-[0.1rem] border-gray-500 m-auto bg-transparent sm:min-w-[450px]">

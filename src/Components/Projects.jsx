@@ -5,10 +5,6 @@ import Proj3 from '../Assets/project-3.gif'
 import Proj4 from '../Assets/project-4.png'
 import Proj5 from '../Assets/project-5.png'
 import Proj6 from '../Assets/project-6.png'
-import Arrow from '../Assets/arrow.png'
-import ArrowUp from '../Assets/arrow-up.png'
-import { Link } from 'react-scroll'
-import './Styles/Projects.css'
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -33,7 +29,7 @@ function Projects() {
     {
       key: '3',
       img: `${Proj6}`,
-      name: "tailwindCSS ReacJS Landing Page",
+      name: "TailwindCSS ReactJS Landing Page",
       github: "https://github.com/danielbelle/financial-page-rectjs",
       demo: "https://financial-page-rectjs-tailwindcss.vercel.app/"
     },
@@ -54,7 +50,7 @@ function Projects() {
     {
       key: '6',
       img: `${Proj3}`,
-      name: "CRUD Pedidos PHP, com 3 Endpoints CodeIgniter e MySQL",
+      name: "CRUD PHP, CodeIgniter e MySQL",
       github: "https://github.com/danielbelle/api-orders",
       demo: "https://www.youtube.com/watch?v=G1Brhqz-PqM"
     }
@@ -65,15 +61,16 @@ function Projects() {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 2,
     initialSlide: 0,
+    arrows: false,
     responsive: [
       {
-        breakpoint: 1130,
+        breakpoint: 1080,
         settings: {
           speed: 500,
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
           initialSlide: 0,
           infinite: false,
@@ -86,13 +83,13 @@ function Projects() {
           dots: true,
           infinite: false,
           speed: 500,
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 650,
         settings: {
           dots: true,
           infinite: false,
@@ -106,33 +103,34 @@ function Projects() {
   };
 
   return (
-    <div id="projects" className='projects-section'>
-      <Link to='about' spy={true} smooth={true} offset={0} duration={300}>
-        <img src={ArrowUp} alt="Ícone seta" className="icon arrow-up" />
-      </Link>
-      <div className='content-box'>
-        <p className="project-text-p1">Mais Recentes</p>
-        <h1 className="project-up-title">Projetos</h1>
-        <div className="experience-details-container-project">
-          <div className="project-containers">
-            <Slider {...settings}>
+    <div id="projects" className='flex justify-center flex-col max-w-[1160px] m-auto relative min-h-[400px] sm:mt-[200px] md:mt-0'>
+      <div>
+        <p className="flex justify-center font-[600] text-gray-600">Mais Recentes</p>
+        <h1 className="flex justify-center text-[3rem] font-[600] mb-10">Projetos</h1>
+        <div className="m-auto items-center">
+          <div className="mt-[1rem]">
+            <Slider {...settings}> 
               {carouselProjects.map((d) => (
-                <div key={d.key} className="details-container-project">
-                  <div className="article-container">
-                    <img src={d.img} alt="Projeto 1" className="project-img" />
-                  </div>
-                  <h2 className="experience-sub-title">{d.name}</h2>
-                  <div className="btn-container">
-                    <a href={d.github} target="_blank" rel="noopener noreferrer">
-                      <button className="btn btn-color-2 project-btn">
-                        Github
-                      </button>
-                    </a>
-                    <a href={d.demo} target="_blank" rel="noopener noreferrer">
-                      <button className="btn btn-color-2 project-btn">
-                        Live Demo
-                      </button>
-                    </a>
+                <div key={d.key} className="min-h-[350px] inline-block max-h-[450px] min-w-[240px] max-w-[300px] bg-white ">
+                  <div className='flex flex-col md:mr-1 lg:mr-2 border-solid border-[0.1rem] border-gray-500 rounded-[32px] rounded-t-[30px]'>
+                    <div className="flex items-start min-h-[290px] border-b-[0.1rem] ">
+                      <img src={d.img} alt="Projeto" className="h-[100%] w-[100%] rounded-t-[31px]" />
+                    </div>
+                    <div className='flex flex-col bg-[#fafafa] bottom-0 rounded-b-[32px]'>
+                      <h2 className="font-[600] text-black text-[0.9rem] justify-center text-center my-4">{d.name}</h2>
+                      <div className="flex content-center justify-center items-center gap-1 mb-5">
+                        <a href={d.github} target="_blank" rel="noopener noreferrer">
+                          <button className="font-[600] text-[0.8rem] ease-in duration-300 p-[0.8rem] w-[7rem] rounded-[32px] border-solid border-[0.1rem] border-[#353535] hover:cursor-pointer hover:bg-[#353535] hover:text-white bg-[#FFF]">
+                            Github
+                          </button>
+                        </a>
+                        <a href={d.demo} target="_blank" rel="noopener noreferrer">
+                          <button className="font-[600] text-[0.8rem] ease-in duration-300 p-[0.8rem] w-[7rem] rounded-[32px] border-solid border-[0.1rem] border-[#353535] hover:cursor-pointer hover:bg-[#353535] hover:text-white bg-[#FFF]">
+                            Projeto
+                          </button>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               ))}
@@ -140,9 +138,7 @@ function Projects() {
           </div>
         </div>
       </div>
-      <Link to='contact' spy={true} smooth={true} offset={0} duration={300}>
-        <img src={Arrow} alt="Ícone seta" className="icon arrow" />
-      </Link>
+
     </div >
   )
 }
