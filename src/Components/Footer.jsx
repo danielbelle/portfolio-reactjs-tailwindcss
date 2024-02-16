@@ -13,9 +13,9 @@ function Footer() {
   return (
     <div
       id="footer"
-      className="flex justify-between items-center max-w-[1160px] relative min-h-[26vh] m-auto pt-[5rem] mb-[5rem] flex-col min-w-[350px]"
+      className="flex justify-between items-center max-w-[1160px] relative min-h-[26vh] m-auto pt-[5rem] mb-[5rem] flex-col min-w-[300px]"
     >
-      <ul className="flex mt-4 lg:text-2xl md:text-lg text-sm text-nowrap m-auto items-center justify-center">
+      <ul className="flex mt-4 lg:text-2xl md:text-lg text-sm text-nowrap m-auto items-center justify-center ">
         <li className="sm:p-4 p-2 sm:mr-3 hover:underline hover:text-[#b5b5b5] hover:underline-offset-[1rem] cursor-pointer">
           <Link to="nav" spy={true} smooth={true} offset={0} duration={300}>
             Vamos Para Cima?

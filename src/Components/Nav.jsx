@@ -11,7 +11,7 @@ function Nav() {
 
   return (
     <div
-      className="flex justify-between items-center h-24 max-w-[1160px] mx-auto px-4 text-black min-w-[350px]"
+      className="flex justify-between items-center h-24 max-w-[1160px] mx-auto px-4 text-black min-w-[300px]"
       id="nav"
     >
       <h1 className="w-full lg:text-4xl text-2xl text-black m-12 mt-15 p-4 pt-6 text-nowrap">
