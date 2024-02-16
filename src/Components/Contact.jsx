@@ -41,7 +41,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="flex justify-center flex-col h-[80hv] max-w-[1160px] m-auto relative h-min-[500px] box-border sm:mt-[15rem] md:mt-[7rem] lg:mt-[5rem] pt-[8rem]"
+      className="flex justify-center flex-col h-[80hv] max-w-[1160px] m-auto relative h-min-[500px] box-border sm:mt-[15rem] md:mt-[7rem] lg:mt-[5rem] pt-[8rem] min-w-[350px]"
     >
       <p className="flex justify-center font-[600] text-gray-600">
         Me Encaminhe Seu
@@ -49,7 +49,7 @@ function Contact() {
       <h1 className="flex justify-center text-[3rem] font-[600] mb-10">
         E-mail
       </h1>
-      <div className="flex justify-center rounded-[32px] border-solid border-[0.1rem] border-gray-500 m-auto bg-transparent min-w-[250px] sm:min-w-[450px]">
+      <div className="flex justify-center rounded-[32px] border-solid border-[0.1rem] border-gray-500 m-auto bg-transparent sm:min-w-[450px]">
         <div className="flex items-center justify-center gap-[1rem] m-[1rem]">
           <img
             src={Email}
@@ -64,10 +64,10 @@ function Contact() {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 placeholder="seu-email@gmail.com"
-                className="flex-1 h-[100%] border-none outline-none font-[1.3rem] px-[1rem] py-[1rem] placeholder:text-[1.1rem] placeholder:text-gray-500"
+                className="flex-1 h-[100%] border-none outline-none font-[1rem] sm:font-[1.3rem] px-[1rem] py-[1rem] sm:placeholder:text-[1.1rem] placeholder:text-[0.9rem] placeholder:text-gray-500"
               ></input>
               <input
-                className="bg-white rounded-[5rem] text-[1.2rem] cursor-pointer font-[600] text-black transition duration-200 items-center justify-center ml-[1rem]"
+                className="bg-white rounded-[5rem] text-[1rem] sm:text-[1.2rem] cursor-pointer font-[600] text-black transition duration-200 items-center justify-center ml-[1rem]"
                 type="submit"
                 value={"Enviar"}
               />
