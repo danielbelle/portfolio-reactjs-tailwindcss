@@ -41,7 +41,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="flex justify-center flex-col h-[80hv] max-w-[1160px] m-auto relative h-min-[500px] box-border sm:mt-[15rem] md:mt-[7rem] lg:mt-[5rem] pt-[8rem] min-w-[300px]"
+      className="flex justify-center flex-col h-[80hv] max-w-[1160px] m-auto relative h-min-[500px] box-border sm:mt-[15rem] md:mt-[7rem] lg:mt-[5rem] pt-[8rem]"
     >
       <p className="flex justify-center font-[600] text-gray-600">
         Me Encaminhe Seu

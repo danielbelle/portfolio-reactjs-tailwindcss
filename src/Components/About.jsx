@@ -6,7 +6,7 @@ function About() {
   return (
     <div
       id="about"
-      className="justify-between items-center max-w-[1160px] m-auto relative min-h-[1060px] sm:min-h-[750px] h-[80vh] pt-[30px] pb-[50px] min-w-[300px]"
+      className="justify-between items-center max-w-[1160px] m-auto relative min-h-[1060px] sm:min-h-[750px] h-[80vh] pt-[30px] pb-[50px]"
     >
       <p className="flex justify-center font-[600] text-gray-600">
         Conheça Mais

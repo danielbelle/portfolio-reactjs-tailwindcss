@@ -103,7 +103,7 @@ function Projects() {
   return (
     <div
       id="projects"
-      className="flex justify-center flex-col max-w-[1160px] m-auto relative min-h-[400px] sm:mt-[200px] mt-[300px] md:mt-0 min-w-[300px]"
+      className="flex justify-center flex-col max-w-[1160px] m-auto relative min-h-[400px] sm:mt-[200px] mt-[300px] md:mt-0"
     >
       <div>
         <p className="flex justify-center font-[600] text-gray-600">
