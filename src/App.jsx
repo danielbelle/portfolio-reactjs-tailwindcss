@@ -9,12 +9,12 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App min-w-[420px]">
-      <Nav />
-      <Profile />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
+      <Nav className="border-box" />
+      <Profile className="border-box" />
+      <About className="border-box" />
+      <Projects className="border-box" />
+      <Contact className="border-box" />
+      <Footer className="border-box" />
     </div>
   );
 }
