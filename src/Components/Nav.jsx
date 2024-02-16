@@ -11,7 +11,7 @@ function Nav() {
 
 
   return (
-    <div className='flex justify-between items-center h-24 max-w-[1160px] mx-auto px-4 text-black' id='nav'>
+    <div className='flex justify-between items-center h-24 max-w-[1160px] mx-auto px-4 text-black min-w-[350px]' id='nav'>
       <h1 className='w-full lg:text-4xl text-2xl text-black m-12 mt-15 p-4 pt-6 text-nowrap'>Daniel Henrique Bellé</h1>
       <ul className='hidden md:flex mt-4 lg:text-2xl text-md  text-nowrap md:mr-5 m-auto '>
         <li className='p-4 mr-3 hover:underline hover:text-[#b5b5b5] hover:underline-offset-[1rem] cursor-pointer'>

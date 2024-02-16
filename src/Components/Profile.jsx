@@ -8,7 +8,7 @@ import { Link } from 'react-scroll'
 function Profile() {
 
   return (
-    <div id="profile" className='flex justify-between items-center max-w-[1160px] mx-auto my-[1rem] px-4 relative gap-[4rem] min-h-[400px] h-[80vh] pt-2 '>
+    <div id="profile" className='flex justify-between items-center max-w-[1160px] mx-auto my-[1rem] px-4 relative gap-[4rem] min-h-[400px] h-[80vh] pt-2 min-w-[350px]'>
       <div className="md:flex lg:h-[400px] lg:w-[400px] md:h-[320px] md:w-[320px] mx-0 my-auto flex-[0.9] hidden">
         <img src={ProfilePic} alt="Foto de perfil do Daniel" />
       </div>

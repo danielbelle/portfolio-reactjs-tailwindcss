@@ -8,7 +8,7 @@ import { Link } from 'react-scroll'
 function About() {
 
   return (
-    <div id="about" className='justify-between items-center max-w-[1160px] m-auto relative min-h-[1060px] sm:min-h-[750px] h-[80vh] pt-[30px] pb-[50px]'>
+    <div id="about" className='justify-between items-center max-w-[1160px] m-auto relative min-h-[1060px] sm:min-h-[750px] h-[80vh] pt-[30px] pb-[50px] min-w-[350px]'>
       <p className="flex justify-center font-[600] text-gray-600">Conheça Mais</p>
       <h1 className="flex text-[3rem] font-[800] mb-2 justify-center ">Sobre mim</h1>
       <div className="about-container">
