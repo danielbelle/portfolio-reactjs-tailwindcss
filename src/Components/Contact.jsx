@@ -50,14 +50,14 @@ function Contact() {
         E-mail
       </h1>
       <div className="flex justify-center rounded-[32px] border-solid border-[0.1rem] border-gray-500 sm:m-auto bg-transparent m-5">
-        <div className="flex items-center justify-center gap-[1rem] m-[1rem]">
+        <div className="flex items-center justify-center gap-0 sm:gap-[1rem] m-[1rem]">
           <img
             src={Email}
             alt="Ícone E-mail"
             className="cursor-default h-[2rem] ml-[0.5rem]"
           />
           <form ref={form} onSubmit={sendEmail}>
-            <div className="bg-white max-w-[700px] w-[70%] sm:w-[100%] items-center rounded-[5rem]">
+            <div className="bg-transparent max-w-[700px] w-[70%] sm:w-[100%] items-center rounded-[5rem]">
               <input
                 type="email"
                 name="user_email"
@@ -67,7 +67,7 @@ function Contact() {
                 className="flex-1 h-[100%] border-none outline-none font-[1rem] sm:font-[1.3rem] px-[1rem] py-[1rem] sm:placeholder:text-[1.1rem] placeholder:text-[0.9rem] placeholder:text-gray-500"
               ></input>
               <input
-                className="bg-white rounded-[5rem] text-[1rem] sm:text-[1.2rem] cursor-pointer font-[600] text-black transition duration-200 items-center justify-center ml-[1rem]"
+                className="bg-transparent rounded-[5rem] text-[1rem] sm:text-[1.2rem] cursor-pointer font-[600] text-black transition duration-200 items-center justify-center ml-[1rem]"
                 type="submit"
                 value={"Enviar"}
               />
