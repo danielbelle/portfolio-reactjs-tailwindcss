@@ -37,11 +37,6 @@ function Footer() {
             Projetos
           </Link>
         </li>
-        <li className="sm:p-4 p-2 sm:mr-3 hover:underline hover:text-[#b5b5b5] hover:underline-offset-[1rem] cursor-pointer">
-          <Link to="contact" spy={true} smooth={true} offset={0} duration={300}>
-            Bora Conversar?
-          </Link>
-        </li>
       </ul>
       <div className="flex items-center text-center justify-center text-[#656565] mt-2 mx-4 text-[8px] sm:text-[14px] text-xs">
         <p>

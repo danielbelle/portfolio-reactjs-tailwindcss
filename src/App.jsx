@@ -1,4 +1,4 @@
-//import './App.css';
+import './App.css';
 import About from './Components/About';
 import Nav from './Components/Nav';
 import Profile from './Components/Profile'
