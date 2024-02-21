@@ -13,17 +13,17 @@ function Projects() {
   const carouselProjects = [
     {
       key: "1",
+      img: `${Proj3}`,
+      name: "CRUD PHP, CodeIgniter e MySQL",
+      github: "https://github.com/danielbelle/api-orders",
+      demo: "https://www.youtube.com/watch?v=G1Brhqz-PqM",
+    },
+    {
+      key: "2",
       img: `${Proj1}`,
       name: "Landing Page ReactJS",
       github: "https://github.com/danielbelle/react-js-landing-page-restaurant",
       demo: "https://react-js-landing-page-restaurant.vercel.app/",
-    },
-    {
-      key: "2",
-      img: `${Proj2}`,
-      name: "Consumo de API Externa",
-      github: "https://github.com/danielbelle/buscador-cep",
-      demo: "https://buscador-cep-pink-pi.vercel.app/",
     },
     {
       key: "3",
@@ -34,10 +34,10 @@ function Projects() {
     },
     {
       key: "4",
-      img: `${Proj4}`,
-      name: "Quiz ReactJS",
-      github: "https://github.com/danielbelle/quiz-reactjs",
-      demo: "https://quiz-reactjs-ecru.vercel.app/",
+      img: `${Proj2}`,
+      name: "Consumo de API Externa",
+      github: "https://github.com/danielbelle/buscador-cep",
+      demo: "https://buscador-cep-pink-pi.vercel.app/",
     },
     {
       key: "5",
@@ -48,10 +48,10 @@ function Projects() {
     },
     {
       key: "6",
-      img: `${Proj3}`,
-      name: "CRUD PHP, CodeIgniter e MySQL",
-      github: "https://github.com/danielbelle/api-orders",
-      demo: "https://www.youtube.com/watch?v=G1Brhqz-PqM",
+      img: `${Proj4}`,
+      name: "Quiz ReactJS",
+      github: "https://github.com/danielbelle/quiz-reactjs",
+      demo: "https://quiz-reactjs-ecru.vercel.app/",
     },
   ];
 
