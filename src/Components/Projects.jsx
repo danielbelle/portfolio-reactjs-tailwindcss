@@ -5,6 +5,8 @@ import Proj3 from "../Assets/project-3.gif";
 import Proj4 from "../Assets/project-4.png";
 import Proj5 from "../Assets/project-5.png";
 import Proj6 from "../Assets/project-6.png";
+import Proj7 from "../Assets/project-7.png";
+import Proj8 from "../Assets/project-8.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -13,10 +15,10 @@ function Projects() {
   const carouselProjects = [
     {
       key: "1",
-      img: `${Proj3}`,
-      name: "CRUD PHP, CodeIgniter e MySQL",
-      github: "https://github.com/danielbelle/api-orders",
-      demo: "https://www.youtube.com/watch?v=G1Brhqz-PqM",
+      img: `${Proj7}`,
+      name: "Website Responsivo com Next.js",
+      github: "https://github.com/danielbelle/nextjs-tailwindcss-landing",
+      demo: "https://nextjs-tailwindcss-landing.vercel.app/",
     },
     {
       key: "2",
@@ -27,27 +29,41 @@ function Projects() {
     },
     {
       key: "3",
+      img: `${Proj3}`,
+      name: "CRUD PHP, CodeIgniter e MySQL",
+      github: "https://github.com/danielbelle/api-orders",
+      demo: "https://www.youtube.com/watch?v=G1Brhqz-PqM",
+    },
+    {
+      key: "4",
+      img: `${Proj8}`,
+      name: "CRUD PHP, CodeIgniter e MySQL",
+      github: "https://github.com/danielbelle/portfolio-bruno",
+      demo: "https://portfolio-bruno-peach.vercel.app/",
+    },
+    {
+      key: "5",
       img: `${Proj6}`,
       name: "TailwindCSS ReactJS Landing Page",
       github: "https://github.com/danielbelle/financial-page-rectjs",
       demo: "https://financial-page-rectjs-tailwindcss.vercel.app/",
     },
     {
-      key: "4",
+      key: "6",
       img: `${Proj2}`,
       name: "Consumo de API Externa",
       github: "https://github.com/danielbelle/buscador-cep",
       demo: "https://buscador-cep-pink-pi.vercel.app/",
     },
     {
-      key: "5",
+      key: "7",
       img: `${Proj5}`,
       name: "Search Bar Integrado com API",
       github: "https://github.com/danielbelle/search-bar-API",
       demo: "https://search-bar-api.vercel.app/",
     },
     {
-      key: "6",
+      key: "8",
       img: `${Proj4}`,
       name: "Quiz ReactJS",
       github: "https://github.com/danielbelle/quiz-reactjs",
