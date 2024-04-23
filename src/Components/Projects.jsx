@@ -7,6 +7,7 @@ import Proj5 from "../Assets/project-5.png";
 import Proj6 from "../Assets/project-6.png";
 import Proj7 from "../Assets/project-7.png";
 import Proj8 from "../Assets/project-8.png";
+import Proj9 from "../Assets/project-9.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -29,17 +30,17 @@ function Projects() {
     },
     {
       key: "3",
+      img: `${Proj8}`,
+      name: "Client Portfolio and Projects",
+      github: "https://github.com/danielbelle/portfolio-bruno",
+      demo: "https://portfolio-bruno-peach.vercel.app/",
+    },
+    {
+      key: "4",
       img: `${Proj3}`,
       name: "CRUD PHP, CodeIgniter e MySQL",
       github: "https://github.com/danielbelle/api-orders",
       demo: "https://www.youtube.com/watch?v=G1Brhqz-PqM",
-    },
-    {
-      key: "4",
-      img: `${Proj8}`,
-      name: "CRUD PHP, CodeIgniter e MySQL",
-      github: "https://github.com/danielbelle/portfolio-bruno",
-      demo: "https://portfolio-bruno-peach.vercel.app/",
     },
     {
       key: "5",
@@ -68,6 +69,13 @@ function Projects() {
       name: "Quiz ReactJS",
       github: "https://github.com/danielbelle/quiz-reactjs",
       demo: "https://quiz-reactjs-ecru.vercel.app/",
+    },
+    {
+      key: "9",
+      img: `${Proj9}`,
+      name: "WordCounter of letters, words, sentences and paragraphs",
+      github: "https://github.com/danielbelle/quiz-reactjs",
+      demo: "https://nextjs-word-counter.vercel.app/",
     },
   ];
 
